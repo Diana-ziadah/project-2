@@ -288,8 +288,6 @@ cabinBox.setFromObject(cabin);
         const newCheckpointZ = lastCheckpoint ? lastCheckpoint.position.z - 20 : -20;
         createCheckpoint(newCheckpointZ);
     }
-
-)
    
 if (playerBox.intersectsBox(cabinBox)) {
   won = true;
